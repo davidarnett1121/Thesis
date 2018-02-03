@@ -1,0 +1,215 @@
+
+%%% ------ Preamble ------ %%%
+
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{mathtools}      % Math Packages
+\usepackage{mathrsfs}
+\usepackage{urwchancal}
+
+%\usepackage[top=1in,bottom=1in,left=1.5in,right=1.5in]{geometry}     %Sets margins
+\usepackage[left=1.3in,right=1in]{geometry}     %Sets side margins
+
+\voffset = -0.28in
+\topmargin = 0in
+\headsep = 0.042in
+\headheight = 15pt
+\textheight = 9in
+
+\usepackage[titles]{tocloft}
+
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+
+\newlength\mylength
+\renewcommand\cftchappresnum{\chaptername~}
+\renewcommand\cftchapaftersnum{:}
+\settowidth\mylength{\cftchappresnum\cftchapaftersnum\quad\space}
+\addtolength\cftchapnumwidth{\mylength}
+
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+\usepackage{float}      % More options for figures and captions 
+
+\usepackage{array}      % More options for tables
+
+\setlength{\parindent}{1cm} % Change indent spacing, default is 15pt
+
+\makeatletter %only needed in preamble
+\renewcommand\large{\@setfontsize\large{14pt}{18}}
+\makeatother
+
+% So the word "Appendix" appears!
+\makeatletter
+\g@addto@macro\appendix{%
+	\addtocontents{toc}{%
+		\protect\renewcommand{\protect\cftchappresnum}{\appendixname\space}%
+	}%
+}
+\makeatother
+% %
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\large\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\large}
+% huge Huge
+
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalfont\large\bfseries}{\thesubsubsection}{1em}{}
+
+%http://tex.stackexchange.com/questions/63390/how-to-decrease-spacing-before-chapter-title
+
+%\titlespacing*{\chapter}{0pt}{-15pt}{20pt}
+\titlespacing*{\chapter}{0pt}{-20pt}{10pt}
+%\titlespacing*{\section} {0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+%\titlespacing*{\subsection} {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+%\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\usepackage{setspace}                   % Provides ability for double and single spacing
+
+\usepackage[shortcuts]{extdash}         % For correct dashes or hyphens within words
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%\fancyfoot[L]{\today}       % Display date in footer (Remove for final drafts)
+
+\assignpagestyle{\chapter}{fancy}
+
+
+\graphicspath{{images/}}        %Looks into the image folder
+
+\setcounter{secnumdepth}{3}     %Enable numbered subsubsections
+\setcounter{tocdepth}{3}        %Place numbered subsubsections into Table of Contents
+
+\usepackage{pdfpages}			%Enable attachment of PDF files
+
+%\sloppy %May use this command later!
+
+\usepackage[bookmarks,hidelinks]{hyperref}	   %Allows links within document after PDF creation (i.e. links work cited text to referenced location in the text)
+
+\usepackage[style = american]{csquotes}
+\usepackage[sorting=none,backend=biber]{biblatex}     %Allows use of Bibliography
+\DefineBibliographyStrings{english}{%
+	mathesis = {MS thesis},
+}
+\addbibresource{references.bib}         %Reference the bib file
+
+
+\widowpenalty10000
+\clubpenalty10000  
+
+
+%%% ------ Document Creation ------ %%%
+
+\begin{document}
+	
+	\input{title_page}          %Insert title page
+	
+	\pagenumbering{roman}       %Set numbering for preliminary pages
+	\cleardoublepage                  %Ensure authorization page begins on a new page
+	\phantomsection
+	\setcounter{page}{2}        %Begin at page numbering at ii for the authorization page
+	
+	%\doublespacing
+	%or
+	\onehalfspacing
+	
+	\input{authorization_page}
+	\addcontentsline{toc}{section}{Authorization to Submit Thesis}  
+	
+	\chapter*{Abstract}
+	\input{abstract}
+	\addcontentsline{toc}{section}{Abstract}
+	
+	\chapter*{Acknowledgements}
+	%\input{acknowledgements}
+	\addcontentsline{toc}{section}{Acknowledgements}
+	
+	%\begin{doublespace}
+		\renewcommand*{\contentsname}{Table of Contents}
+		\tableofcontents
+		\addcontentsline{toc}{section}{Table of Contents}
+	%\end{doublespace}
+	
+	%\begin{doublespace}
+		\listoffigures
+		\addcontentsline{toc}{section}{List of Figures}
+	%\end{doublespace}
+	
+	%\begin{doublespace}
+		\listoftables
+		\addcontentsline{toc}{section}{List of Tables}
+	%\end{doublespace}
+	
+	\chapter*{List of Abbreviations}
+	%\thispagestyle{mystyle}
+	%\input{list_of_abbreviations}
+	\addcontentsline{toc}{section}{List of Abbreviations}
+	
+	\chapter{Introduction}
+	\pagenumbering{arabic}
+	%\input{chapters/Introduction}
+	
+	\chapter{Thesis objectives}
+	%\input{chapters/Thesis_Objectives}
+	
+	\chapter{Scope}
+	%\input{chapters/Scope}
+	
+	\chapter{Literature review}
+	%\input{chapters/Literature_Review}
+	
+	\chapter{}
+	%\input{chapters/AMB_Model}
+	
+	\chapter{}
+	%\input{chapters/AMB_Control_System}
+	
+	\chapter{}
+	%\input{chapters/SASB_Test_Setup}
+	
+	\chapter{}
+	%\input{chapters/Stabilization_Bearing_Design}
+	
+	\chapter{}
+	%\input{chapters/Self_Bearing_Machine}
+	
+	\chapter{}
+	%\input{chapters/Summary_and_Conclusions}
+	
+	\chapter{}
+	%\input{chapters/Rec_for_Future_Work}
+	
+	\renewcommand{\bibname}{References} %Change name from "Bibliography" to "References"
+	\setlength{\bibitemsep}{1cm}        %Set spacing between bibliography entries       
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{References}
+	% \let\itshape\upshape
+	\urlstyle{same}
+	\uspunctuation
+	\printbibliography
+	
+	
+	%\appendix
+	%\chapter{My First Appendix}
+	%\input{chapters/appendix_1}
+	
+	
+	%\includepdf[pages={1}]{test_pdf_file.pdf}
+	%\includepdf[pages=-,scale=.8,pagecommand={}]{test_pdf_file.pdf}
+\end{document}
+
+
