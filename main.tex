@@ -22,7 +22,7 @@
 
 \usepackage[titles]{tocloft}
 
-\cftsetindents{section}{0em}{2em}
+%\cftsetindents{section}{0em}{2em}
 \cftsetindents{subsection}{0em}{2em}
 
 \newlength\mylength
@@ -59,11 +59,11 @@
 % huge Huge
 
 \titleformat{\section}
-{\normalfont\large\bfseries}{\thesection}{1em}{}
+{\normalfont\large}{\thesection}{1em}{}
 \titleformat{\subsection}
-{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+{\normalfont\large}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}
-{\normalfont\large\bfseries}{\thesubsubsection}{1em}{}
+{\normalfont\large}{\thesubsubsection}{1em}{}
 
 %http://tex.stackexchange.com/questions/63390/how-to-decrease-spacing-before-chapter-title
 
@@ -90,8 +90,8 @@
 
 \graphicspath{{images/}}        %Looks into the image folder
 
-\setcounter{secnumdepth}{3}     %Enable numbered subsubsections
-\setcounter{tocdepth}{3}        %Place numbered subsubsections into Table of Contents
+\setcounter{secnumdepth}{2}     %Enable numbered subsubsections
+\setcounter{tocdepth}{2}        %Place numbered subsubsections into Table of Contents
 
 \usepackage{pdfpages}			%Enable attachment of PDF files
 
@@ -100,7 +100,7 @@
 \usepackage[bookmarks,hidelinks]{hyperref}	   %Allows links within document after PDF creation (i.e. links work cited text to referenced location in the text)
 
 \usepackage[style = american]{csquotes}
-\usepackage[sorting=none,backend=biber]{biblatex}     %Allows use of Bibliography
+\usepackage[sorting=none,backend=bibtex]{biblatex}     %Allows use of Bibliography
 \DefineBibliographyStrings{english}{%
 	mathesis = {MS thesis},
 }
@@ -127,69 +127,54 @@
 	\onehalfspacing
 	
 	\input{authorization_page}
-	\addcontentsline{toc}{section}{Authorization to Submit Thesis}  
+	\addcontentsline{toc}{subsection}{Authorization to Submit Thesis}  
 	
 	\chapter*{Abstract}
 	\input{abstract}
-	\addcontentsline{toc}{section}{Abstract}
+	\addcontentsline{toc}{subsection}{Abstract}
 	
 	\chapter*{Acknowledgements}
 	%\input{acknowledgements}
-	\addcontentsline{toc}{section}{Acknowledgements}
+	\addcontentsline{toc}{subsection}{Acknowledgements}
 	
 	%\begin{doublespace}
 		\renewcommand*{\contentsname}{Table of Contents}
 		\tableofcontents
-		\addcontentsline{toc}{section}{Table of Contents}
+		\addcontentsline{toc}{subsection}{Table of Contents}
 	%\end{doublespace}
 	
 	%\begin{doublespace}
 		\listoffigures
-		\addcontentsline{toc}{section}{List of Figures}
+		\addcontentsline{toc}{subsection}{List of Figures}
 	%\end{doublespace}
 	
 	%\begin{doublespace}
 		\listoftables
-		\addcontentsline{toc}{section}{List of Tables}
+		\addcontentsline{toc}{subsection}{List of Tables}
 	%\end{doublespace}
 	
 	\chapter*{List of Abbreviations}
 	%\thispagestyle{mystyle}
 	%\input{list_of_abbreviations}
-	\addcontentsline{toc}{section}{List of Abbreviations}
+	\addcontentsline{toc}{subsection}{List of Abbreviations}
 	
 	\chapter{Introduction}
 	\pagenumbering{arabic}
-	%\input{chapters/Introduction}
+	\input{chapters/Introduction}
 	
-	\chapter{Thesis objectives}
-	%\input{chapters/Thesis_Objectives}
+	\chapter{Dynamic Modeling}
+	\input{chapters/DynamicModeling}
 	
-	\chapter{Scope}
-	%\input{chapters/Scope}
-	
-	\chapter{Literature review}
-	%\input{chapters/Literature_Review}
-	
-	\chapter{}
-	%\input{chapters/AMB_Model}
-	
-	\chapter{}
+	\chapter{Controls Development}
 	%\input{chapters/AMB_Control_System}
 	
-	\chapter{}
+	\chapter{Hardware Testing}
 	%\input{chapters/SASB_Test_Setup}
 	
-	\chapter{}
+	\chapter{Model Validation and Verification}
 	%\input{chapters/Stabilization_Bearing_Design}
 	
-	\chapter{}
-	%\input{chapters/Self_Bearing_Machine}
-	
-	\chapter{}
-	%\input{chapters/Summary_and_Conclusions}
-	
-	\chapter{}
+	\chapter{Summary, Conclusions, and Recommendations}
 	%\input{chapters/Rec_for_Future_Work}
 	
 	\renewcommand{\bibname}{References} %Change name from "Bibliography" to "References"

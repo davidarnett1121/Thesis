@@ -1,37 +1,39 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Authorization to Submit Thesis}{ii}{section*.1}
+\contentsline {subsection}{Authorization to Submit Thesis}{ii}{section*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abstract}{iii}{chapter*.2}
+\contentsline {subsection}{Abstract}{iii}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Acknowledgements}{iv}{chapter*.3}
+\contentsline {subsection}{Acknowledgements}{iv}{chapter*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Table of Contents}{v}{chapter*.4}
+\contentsline {subsection}{Table of Contents}{v}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{List of Figures}{vi}{chapter*.5}
+\contentsline {subsection}{List of Figures}{vi}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{List of Tables}{vii}{chapter*.6}
+\contentsline {subsection}{List of Tables}{vii}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{List of Abbreviations}{viii}{chapter*.7}
+\contentsline {subsection}{List of Abbreviations}{viii}{chapter*.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Thesis objectives}{2}{chapter.2}
+\contentsline {section}{\numberline {1.1}Thesis Objectives}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Scope}{3}{chapter.3}
+\contentsline {section}{\numberline {1.2}Scope}{1}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Literature review}{4}{chapter.4}
+\contentsline {chapter}{\numberline {2}Dynamic Modeling}{2}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}}{5}{chapter.5}
+\contentsline {section}{\numberline {2.1}Torque Production}{2}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}}{6}{chapter.6}
+\contentsline {section}{\numberline {2.2}MATLAB\textsuperscript {\textregistered } Development}{2}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}}{7}{chapter.7}
+\contentsline {section}{\numberline {2.3}Effects of Non Ideal Materials}{2}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}}{8}{chapter.8}
+\contentsline {chapter}{\numberline {3}Controls Development}{8}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}}{9}{chapter.9}
+\contentsline {chapter}{\numberline {4}Hardware Testing}{9}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}}{10}{chapter.10}
+\contentsline {chapter}{\numberline {5}Model Validation and Verification}{10}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}}{11}{chapter.11}
+\contentsline {chapter}{\numberline {6}Summary, Conclusions, and Recommendations}{11}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{12}{section*.11}
