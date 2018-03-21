@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
 %
 \begingroup
 \makeatletter
@@ -16,41 +16,277 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{MagBear}{book}{}
-    \name{author}{1}{}{%
-      {{hash=a}{%
-         family={author},
-         familyi={a\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{a1}
-    \strng{fullhash}{a1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Magnetic Bearings}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
-  \endentry
 
-  \entry{GyrCapApp}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HDC}{%
-         family={Hamill},
-         familyi={H\bibinitperiod},
-         given={D\bibnamedelima C.},
-         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HDC1}
-    \strng{fullhash}{HDC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Lumped Equivalent Circuits of Magnetic Components: The
-  Gyrator-Capacitor Approach}
-    \field{journaltitle}{IEEE Trans. Power Electron.}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
-  \endentry
-\enddatalist
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Pettingill}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=e33e73b078055ed4fe1dd85af6c6a0c5}{%
+           family={Pettingill},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Idaho}%
+      }
+      \strng{namehash}{e33e73b078055ed4fe1dd85af6c6a0c5}
+      \strng{fullhash}{e33e73b078055ed4fe1dd85af6c6a0c5}
+      \strng{bibnamehash}{e33e73b078055ed4fe1dd85af6c6a0c5}
+      \strng{authorbibnamehash}{e33e73b078055ed4fe1dd85af6c6a0c5}
+      \strng{authornamehash}{e33e73b078055ed4fe1dd85af6c6a0c5}
+      \strng{authorfullhash}{e33e73b078055ed4fe1dd85af6c6a0c5}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Multi-Physic Stochastic Modeling of a High Speed Composite Flywheel Energy Storage System}
+      \field{type}{Thesis}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kisling}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7b146a6415b546499c9596cc60052710}{%
+           family={Kisling},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Idaho}%
+      }
+      \strng{namehash}{7b146a6415b546499c9596cc60052710}
+      \strng{fullhash}{7b146a6415b546499c9596cc60052710}
+      \strng{bibnamehash}{7b146a6415b546499c9596cc60052710}
+      \strng{authorbibnamehash}{7b146a6415b546499c9596cc60052710}
+      \strng{authornamehash}{7b146a6415b546499c9596cc60052710}
+      \strng{authorfullhash}{7b146a6415b546499c9596cc60052710}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Active Magnetic Bearing Control for an Experimental Flywheel Energy Storage System}
+      \field{type}{Thesis}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Wimer}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=9125ef25cdbcdc7e3d5eacd13938e0d1}{%
+           family={Wimer},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Idaho}%
+      }
+      \strng{namehash}{9125ef25cdbcdc7e3d5eacd13938e0d1}
+      \strng{fullhash}{9125ef25cdbcdc7e3d5eacd13938e0d1}
+      \strng{bibnamehash}{9125ef25cdbcdc7e3d5eacd13938e0d1}
+      \strng{authorbibnamehash}{9125ef25cdbcdc7e3d5eacd13938e0d1}
+      \strng{authornamehash}{9125ef25cdbcdc7e3d5eacd13938e0d1}
+      \strng{authorfullhash}{9125ef25cdbcdc7e3d5eacd13938e0d1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Dynamic Model and Design of an Integrated Flywheel Energy Storage System}
+      \field{type}{Thesis}
+      \field{year}{2014}
+      \field{dateera}{ce}
+    \endentry
+    \entry{MagBear}{book}{}
+      \name{author}{9}{}{%
+        {{hash=080b88ced49424eeef0359a8619be781}{%
+           family={Bleuler},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=33f8cb49124699115d1371cffae7cee9}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd502f04c6fbba48bdcabda7229f6bfc}{%
+           family={Keogh},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6bc504f935c5f144fec97333e7f14ede}{%
+           family={Larsonneur},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3f7f307578ef10a78a1e78471d7a92c7}{%
+           family={Maslen},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2ecbf8ea2a82c299850369c28a755b91}{%
+           family={Nordmann},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=49b2a25545ebaadcf529b2897d4d8b32}{%
+           family={Okada},
+           familyi={O\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c4bbd2f4814923bb96012992477c58f9}{%
+           family={Schweitzer},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=adef774b3bf38d333b33414f00bca21d}{%
+           family={Traxler},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4ac533054b2b5b3b7aad0512595d2e50}
+      \strng{fullhash}{3e305eb2fa64bd130861031ab8bb19fa}
+      \strng{bibnamehash}{3e305eb2fa64bd130861031ab8bb19fa}
+      \strng{authorbibnamehash}{3e305eb2fa64bd130861031ab8bb19fa}
+      \strng{authornamehash}{4ac533054b2b5b3b7aad0512595d2e50}
+      \strng{authorfullhash}{3e305eb2fa64bd130861031ab8bb19fa}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Magnetic Bearings: Theory, Design, and Application to Rotating Machinery}
+      \field{year}{2009}
+      \field{dateera}{ce}
+    \endentry
+    \entry{GyrCapApp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=233cc18a6f0e7dc63a64a6b43d7109bc}{%
+           family={Hamill},
+           familyi={H\bibinitperiod},
+           given={D\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{233cc18a6f0e7dc63a64a6b43d7109bc}
+      \strng{fullhash}{233cc18a6f0e7dc63a64a6b43d7109bc}
+      \strng{bibnamehash}{233cc18a6f0e7dc63a64a6b43d7109bc}
+      \strng{authorbibnamehash}{233cc18a6f0e7dc63a64a6b43d7109bc}
+      \strng{authornamehash}{233cc18a6f0e7dc63a64a6b43d7109bc}
+      \strng{authorfullhash}{233cc18a6f0e7dc63a64a6b43d7109bc}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. Power Electron.,}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Lumped Equivalent Circuits of Magnetic Components: The Gyrator-Capacitor Approach}
+      \field{volume}{8}
+      \field{year}{1993}
+      \field{pages}{97\bibrangedash 103}
+      \range{pages}{7}
+    \endentry
+    \entry{MWFwE}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8d7de2fec1b8e17ddd99092e5986c751}{%
+           family={Al-Nuaim},
+           familyi={A\bibinithyphendelim N\bibinitperiod},
+           given={N.\bibnamedelimi A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=12f7a396e5f5147a1374295238f59ba4}{%
+           family={Toliyat},
+           familyi={T\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e84df799bfc6085ababd449851007a8}
+      \strng{fullhash}{8e84df799bfc6085ababd449851007a8}
+      \strng{bibnamehash}{8e84df799bfc6085ababd449851007a8}
+      \strng{authorbibnamehash}{8e84df799bfc6085ababd449851007a8}
+      \strng{authornamehash}{8e84df799bfc6085ababd449851007a8}
+      \strng{authorfullhash}{8e84df799bfc6085ababd449851007a8}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. On Energy Conversion}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{A Novel Method for Modeling Dynamic Air-Gap Eccentricity in Synchronous Machines Based on Modified Winding Function Theory}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{pages}{156\bibrangedash 162}
+      \range{pages}{7}
+    \endentry
+    \entry{IntACMach}{book}{}
+      \name{author}{1}{}{%
+        {{hash=de1bb726d27bae8dc4802833d09a29d6}{%
+           family={Lipo},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-IEEE}%
+      }
+      \strng{namehash}{de1bb726d27bae8dc4802833d09a29d6}
+      \strng{fullhash}{de1bb726d27bae8dc4802833d09a29d6}
+      \strng{bibnamehash}{de1bb726d27bae8dc4802833d09a29d6}
+      \strng{authorbibnamehash}{de1bb726d27bae8dc4802833d09a29d6}
+      \strng{authornamehash}{de1bb726d27bae8dc4802833d09a29d6}
+      \strng{authorfullhash}{de1bb726d27bae8dc4802833d09a29d6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to AC Machine Design}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{AnaGapSal}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8511b0e6496450f35cd030e3d03358a4}{%
+           family={Misir},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=63f973ebae97a2bd0b3b0092acb7d6ba}{%
+           family={Dobbert},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=81705654e5fa75d3ead8b114372ebd42}{%
+           family={Ponick},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d57cfb25b56d00df1e23bab25c45945d}
+      \strng{fullhash}{d57cfb25b56d00df1e23bab25c45945d}
+      \strng{bibnamehash}{d57cfb25b56d00df1e23bab25c45945d}
+      \strng{authorbibnamehash}{d57cfb25b56d00df1e23bab25c45945d}
+      \strng{authornamehash}{d57cfb25b56d00df1e23bab25c45945d}
+      \strng{authorfullhash}{d57cfb25b56d00df1e23bab25c45945d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elektrotechnik und Informationstechnik}
+      \field{number}{2}
+      \field{title}{Analytical method for the air gap permeance calculation of salient pole synchronous machines}
+      \field{volume}{133}
+      \field{year}{2016}
+      \field{pages}{103\bibrangedash 111}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+  \missing{AnaMech}
+\endrefsection
 \endinput
+

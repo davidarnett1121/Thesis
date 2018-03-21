@@ -1,9 +1,22 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-The style file: biblatex.bst
-Database file #1: main-blx.bib
-Database file #2: references.bib
-Warning--I didn't find a database entry for "Pettingill"
-Warning--I didn't find a database entry for "Wimer"
-Warning--I didn't find a database entry for "AnaMech"
-Biblatex version: 3.8
-(There were 3 warnings)
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'main.blg'
+[27] biber-MSWIN32:313> INFO - === 
+[53] Biber.pm:371> INFO - Reading 'main.bcf'
+[135] Biber.pm:857> INFO - Found 9 citekeys in bib section 0
+[149] Biber.pm:3976> INFO - Processing section 0
+[162] Biber.pm:4136> INFO - Looking for bibtex format file 'references.bib' for section 0
+[164] bibtex.pm:1490> INFO - LaTeX decoding ...
+[179] bibtex.pm:1306> INFO - Found BibTeX data source 'references.bib'
+[184] Utils.pm:193> WARN - month field 'May' in entry 'Pettingill' is not an integer - this will probably not sort properly.
+[187] Utils.pm:193> WARN - month field 'May' in entry 'Kisling' is not an integer - this will probably not sort properly.
+[190] Utils.pm:193> WARN - month field 'May' in entry 'Wimer' is not an integer - this will probably not sort properly.
+[204] Utils.pm:193> WARN - month field 'April' in entry 'GyrCapApp' is not an integer - this will probably not sort properly.
+[209] Utils.pm:193> WARN - month field 'June' in entry 'MWFwE' is not an integer - this will probably not sort properly.
+[220] Utils.pm:193> WARN - I didn't find a database entry for 'AnaMech' (section 0)
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[232] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[232] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[233] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[237] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[240] bbl.pm:720> INFO - Output to main.bbl
+[243] Biber.pm:110> INFO - WARNINGS: 6

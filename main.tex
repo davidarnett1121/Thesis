@@ -4,11 +4,15 @@
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+%\usepackage{subfigure}
 \usepackage{caption}
 \usepackage{subcaption}
 
 \usepackage{mathtools}      % Math Packages
 \usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{upgreek}
 \usepackage{urwchancal}
 
 %\usepackage[top=1in,bottom=1in,left=1.5in,right=1.5in]{geometry}     %Sets margins
@@ -99,8 +103,9 @@
 
 \usepackage[bookmarks,hidelinks]{hyperref}	   %Allows links within document after PDF creation (i.e. links work cited text to referenced location in the text)
 
-\usepackage[style = american]{csquotes}
-\usepackage[sorting=none,backend=bibtex]{biblatex}     %Allows use of Bibliography
+%\usepackage[style = ieeetr]%{csquotes}
+
+\usepackage[sorting=none,backend=biber,style=ieee]{biblatex}     %Allows use of Bibliography
 \DefineBibliographyStrings{english}{%
 	mathesis = {MS thesis},
 }

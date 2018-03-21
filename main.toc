@@ -22,18 +22,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Dynamic Modeling}{2}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Torque Production}{2}{section.2.1}
+\contentsline {section}{\numberline {2.1}Effects of Non Ideal Materials on the Stabilization Bearing}{2}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}MATLAB\textsuperscript {\textregistered } Development}{2}{section.2.2}
+\contentsline {section}{\numberline {2.2}Effects of Non Ideal Materials on the Drive Bearing}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Effects of Non Ideal Materials}{2}{section.2.3}
+\contentsline {section}{\numberline {2.3}Torque Production}{13}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Controls Development}{8}{chapter.3}
+\contentsline {section}{\numberline {2.4}MATLAB\textsuperscript {\textregistered } Development}{13}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Hardware Testing}{9}{chapter.4}
+\contentsline {chapter}{\numberline {3}Controls Development}{14}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Model Validation and Verification}{10}{chapter.5}
+\contentsline {chapter}{\numberline {4}Hardware Testing}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary, Conclusions, and Recommendations}{11}{chapter.6}
+\contentsline {chapter}{\numberline {5}Model Validation and Verification}{16}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{12}{section*.11}
+\contentsline {chapter}{\numberline {6}Summary, Conclusions, and Recommendations}{17}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{18}{section*.15}

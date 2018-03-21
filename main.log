@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.1.30)  16 MAR 2018 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.1.30)  20 MAR 2018 21:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -480,6 +480,20 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
+(E:\Software\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(E:\Software\MiKTeX\tex\latex\was\upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
 (E:\Software\MiKTeX\tex\latex\urwchancal\urwchancal.sty
 Package: urwchancal 2011/03/05 v1 U/urwchancal
 
@@ -771,39 +785,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip98
 )
-(E:\Software\MiKTeX\tex\latex\csquotes\csquotes.sty
-Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
+(E:\Software\MiKTeX\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
 
 (C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count125
 )
-\csq@reset=\count126
-\csq@gtype=\count127
-\csq@glevel=\count128
-\csq@qlevel=\count129
-\csq@maxlvl=\count130
-\csq@tshold=\count131
-\csq@ltx@everypar=\toks31
-
-(E:\Software\MiKTeX\tex\latex\csquotes\csquotes.def
-File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(E:\Software\MiKTeX\tex\latex\csquotes\csquotes.cfg
-File: csquotes.cfg 
-)
-Package csquotes Info: Disabling multilingual quotes.
-Package csquotes Info: Redefining alias 'default' -> 'american'.
-)
-(E:\Software\MiKTeX\tex\latex\biblatex\biblatex.sty
-Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
-
 (C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count132
+\lrq@indent=\count126
 
 (C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -811,49 +802,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
 (C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
 \@xs@message=\write3
-\integerpart=\count133
-\decimalpart=\count134
+\integerpart=\count127
+\decimalpart=\count128
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count135
-\c@listtotal=\count136
-\c@listcount=\count137
-\c@liststart=\count138
-\c@liststop=\count139
-\c@citecount=\count140
-\c@citetotal=\count141
-\c@multicitecount=\count142
-\c@multicitetotal=\count143
-\c@instcount=\count144
-\c@maxnames=\count145
-\c@minnames=\count146
-\c@maxitems=\count147
-\c@minitems=\count148
-\c@citecounter=\count149
-\c@savedcitecounter=\count150
-\c@uniquelist=\count151
-\c@uniquename=\count152
-\c@refsection=\count153
-\c@refsegment=\count154
-\c@maxextratitle=\count155
-\c@maxextratitleyear=\count156
-\c@maxextradate=\count157
-\c@maxextraalpha=\count158
-\c@abbrvpenalty=\count159
-\c@highnamepenalty=\count160
-\c@lownamepenalty=\count161
-\c@maxparens=\count162
-\c@parenlevel=\count163
-\blx@tempcnta=\count164
-\blx@tempcntb=\count165
-\blx@tempcntc=\count166
-\blx@maxsection=\count167
-\blx@maxsegment@0=\count168
-\blx@notetype=\count169
-\blx@parenlevel@text=\count170
-\blx@parenlevel@foot=\count171
-\blx@sectionciteorder@0=\count172
+\c@tabx@nest=\count129
+\c@listtotal=\count130
+\c@listcount=\count131
+\c@liststart=\count132
+\c@liststop=\count133
+\c@citecount=\count134
+\c@citetotal=\count135
+\c@multicitecount=\count136
+\c@multicitetotal=\count137
+\c@instcount=\count138
+\c@maxnames=\count139
+\c@minnames=\count140
+\c@maxitems=\count141
+\c@minitems=\count142
+\c@citecounter=\count143
+\c@savedcitecounter=\count144
+\c@uniquelist=\count145
+\c@uniquename=\count146
+\c@refsection=\count147
+\c@refsegment=\count148
+\c@maxextratitle=\count149
+\c@maxextratitleyear=\count150
+\c@maxextradate=\count151
+\c@maxextraalpha=\count152
+\c@abbrvpenalty=\count153
+\c@highnamepenalty=\count154
+\c@lownamepenalty=\count155
+\c@maxparens=\count156
+\c@parenlevel=\count157
+\blx@tempcnta=\count158
+\blx@tempcntb=\count159
+\blx@tempcntc=\count160
+\blx@maxsection=\count161
+\blx@maxsegment@0=\count162
+\blx@notetype=\count163
+\blx@parenlevel@text=\count164
+\blx@parenlevel@foot=\count165
+\blx@sectionciteorder@0=\count166
 \labelnumberwidth=\skip99
 \labelalphawidth=\skip100
 \biblabelsep=\skip101
@@ -864,82 +855,84 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip106
 \blx@bcfin=\read1
 \blx@bcfout=\write4
-\c@mincomprange=\count173
-\c@maxcomprange=\count174
-\c@mincompwidth=\count175
+\c@mincomprange=\count167
+\c@maxcomprange=\count168
+\c@mincompwidth=\count169
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (E:\Software\MiKTeX\tex\latex\biblatex\blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count176
-\c@savedafterword=\count177
-\c@annotator=\count178
-\c@savedannotator=\count179
-\c@author=\count180
-\c@savedauthor=\count181
-\c@bookauthor=\count182
-\c@savedbookauthor=\count183
-\c@commentator=\count184
-\c@savedcommentator=\count185
-\c@editor=\count186
-\c@savededitor=\count187
-\c@editora=\count188
-\c@savededitora=\count189
-\c@editorb=\count190
-\c@savededitorb=\count191
-\c@editorc=\count192
-\c@savededitorc=\count193
-\c@foreword=\count194
-\c@savedforeword=\count195
-\c@holder=\count196
-\c@savedholder=\count197
-\c@introduction=\count198
-\c@savedintroduction=\count199
-\c@namea=\count266
-\c@savednamea=\count267
-\c@nameb=\count268
-\c@savednameb=\count269
-\c@namec=\count270
-\c@savednamec=\count271
-\c@translator=\count272
-\c@savedtranslator=\count273
-\c@shortauthor=\count274
-\c@savedshortauthor=\count275
-\c@shorteditor=\count276
-\c@savedshorteditor=\count277
-\c@labelname=\count278
-\c@savedlabelname=\count279
-\c@institution=\count280
-\c@savedinstitution=\count281
-\c@lista=\count282
-\c@savedlista=\count283
-\c@listb=\count284
-\c@savedlistb=\count285
-\c@listc=\count286
-\c@savedlistc=\count287
-\c@listd=\count288
-\c@savedlistd=\count289
-\c@liste=\count290
-\c@savedliste=\count291
-\c@listf=\count292
-\c@savedlistf=\count293
-\c@location=\count294
-\c@savedlocation=\count295
-\c@organization=\count296
-\c@savedorganization=\count297
-\c@origlocation=\count298
-\c@savedoriglocation=\count299
-\c@origpublisher=\count300
-\c@savedorigpublisher=\count301
-\c@publisher=\count302
-\c@savedpublisher=\count303
-\c@language=\count304
-\c@savedlanguage=\count305
-\c@origlanguage=\count306
-\c@savedoriglanguage=\count307
-\c@pageref=\count308
-\c@savedpageref=\count309
+\c@afterword=\count170
+\c@savedafterword=\count171
+\c@annotator=\count172
+\c@savedannotator=\count173
+\c@author=\count174
+\c@savedauthor=\count175
+\c@bookauthor=\count176
+\c@savedbookauthor=\count177
+\c@commentator=\count178
+\c@savedcommentator=\count179
+\c@editor=\count180
+\c@savededitor=\count181
+\c@editora=\count182
+\c@savededitora=\count183
+\c@editorb=\count184
+\c@savededitorb=\count185
+\c@editorc=\count186
+\c@savededitorc=\count187
+\c@foreword=\count188
+\c@savedforeword=\count189
+\c@holder=\count190
+\c@savedholder=\count191
+\c@introduction=\count192
+\c@savedintroduction=\count193
+\c@namea=\count194
+\c@savednamea=\count195
+\c@nameb=\count196
+\c@savednameb=\count197
+\c@namec=\count198
+\c@savednamec=\count199
+\c@translator=\count266
+\c@savedtranslator=\count267
+\c@shortauthor=\count268
+\c@savedshortauthor=\count269
+\c@shorteditor=\count270
+\c@savedshorteditor=\count271
+\c@labelname=\count272
+\c@savedlabelname=\count273
+\c@institution=\count274
+\c@savedinstitution=\count275
+\c@lista=\count276
+\c@savedlista=\count277
+\c@listb=\count278
+\c@savedlistb=\count279
+\c@listc=\count280
+\c@savedlistc=\count281
+\c@listd=\count282
+\c@savedlistd=\count283
+\c@liste=\count284
+\c@savedliste=\count285
+\c@listf=\count286
+\c@savedlistf=\count287
+\c@location=\count288
+\c@savedlocation=\count289
+\c@organization=\count290
+\c@savedorganization=\count291
+\c@origlocation=\count292
+\c@savedoriglocation=\count293
+\c@origpublisher=\count294
+\c@savedorigpublisher=\count295
+\c@publisher=\count296
+\c@savedpublisher=\count297
+\c@language=\count298
+\c@savedlanguage=\count299
+\c@origlanguage=\count300
+\c@savedoriglanguage=\count301
+\c@pageref=\count302
+\c@savedpageref=\count303
 \shorthandwidth=\skip107
 \shortjournalwidth=\skip108
 \shortserieswidth=\skip109
@@ -952,29 +945,29 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 (E:\Software\MiKTeX\tex\latex\biblatex\blx-compat.def
 File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
 )
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
-
-(E:\Software\MiKTeX\tex\latex\biblatex\blx-bibtex.def
-File: blx-bibtex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-
-
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (E:\Software\MiKTeX\tex\latex\biblatex\biblatex.def
+
+(E:\Software\MiKTeX\tex\latex\biblatex\biblatex.def
 File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count310
-\c@textcitetotal=\count311
-\c@textcitemaxnames=\count312
-\c@biburlnumpenalty=\count313
-\c@biburlucpenalty=\count314
-\c@biburllcpenalty=\count315
-\c@smartand=\count316
+\c@textcitecount=\count304
+\c@textcitetotal=\count305
+\c@textcitemaxnames=\count306
+\c@biburlnumpenalty=\count307
+\c@biburlucpenalty=\count308
+\c@biburllcpenalty=\count309
+\c@smartand=\count310
 )
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex-ieee\ieee.bbx
+File: ieee.bbx 2017/03/27 v1.2d biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(E:\Software\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -985,14 +978,21 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (E:\Software\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
 File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count317
-\c@bbx:relatedtotal=\count318
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+\c@bbx:relatedcount=\count311
+\c@bbx:relatedtotal=\count312
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
 
-(E:\Software\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
-File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+(C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex-ieee\ieee.cbx
+File: ieee.cbx 2017/03/27 v1.2d biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(E:\Software\MiKTeX\tex\latex\biblatex\cbx\numeric-comp.cbx
+File: numeric-comp.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count313
+\c@cbx@tempcntb=\count314
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1005,6 +1005,9 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
 )
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -1016,46 +1019,40 @@ Package biblatex Info: ... file 'english.lbx' found.
 
 (E:\Software\MiKTeX\tex\latex\biblatex\lbx\english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
-) (main.aux
-
-LaTeX Warning: Label `Eq:BwFe' multiply defined.
-
-
-LaTeX Warning: Label `Eq:BwoFe' multiply defined.
-
-
-LaTeX Warning: Label `Eq:BwFe' multiply defined.
-
 )
+\@quotelevel=\count315
+\@quotereset=\count316
+ (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
- (C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+
+(C:\Users\arne9249\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count319
+\scratchcounter=\count317
 \scratchdimen=\dimen151
 \scratchbox=\box33
-\nofMPsegments=\count320
-\nofMParguments=\count321
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count322
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count320
 \MPscratchDim=\dimen152
-\MPnumerator=\count323
-\makeMPintoPDFobject=\count324
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks32
 ) (E:\Software\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1117,7 +1114,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 116.
+Package hyperref Info: Link coloring OFF on input line 121.
 
 (E:\Software\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1125,11 +1122,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (E:\Software\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count325
+\c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
  (main.out)
 (main.out)
 \@outlinefile=\write5
@@ -1138,29 +1135,21 @@ LaTeX Info: Redefining \nameref on input line 116.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' specified.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout4 = `main-blx.bib'.
+\openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'MagBear':
-(biblatex)                - Invalid format of field 'date' 
-(biblatex)                - Invalid format of field 'date'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'GyrCapApp':
-(biblatex)                - Invalid format of field 'date' 
-(biblatex)                - Invalid format of field 'date'.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                AnaMech
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 116.
-Package biblatex Info: Reference segment=0 on input line 116.
+Package biblatex Info: Reference section=0 on input line 121.
+Package biblatex Info: Reference segment=0 on input line 121.
  (title_page.tex [1
 
 {C:/Users/arne9249/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (author
@@ -1169,6 +1158,16 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 12.
 
 (E:\Software\MiKTeX\tex\latex\jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+
+(E:\Software\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+
+(E:\Software\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \hbox (7.12215pt too wide) in paragraph at lines 12--36
 [][] 
@@ -1181,13 +1180,13 @@ Overfull \hbox (7.12215pt too wide) in paragraph at lines 12--36
 ] [4
 
 ] (main.toc
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
 
 (E:\Software\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 )
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1215,145 +1214,184 @@ Chapter 1.
 ntifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.165 	\chapter
+l.170 	\chapter
                {Dynamic Modeling} [1
 
 ]
 Chapter 2.
 (chapters/DynamicModeling.tex
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 18.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9.79996> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
-LaTeX Font Info:    Calculating math sizes for size <9.79996> on input line 18.
+<./Pictures/StabB.jpg, id=172, 484.81125pt x 391.4625pt>
+File: ./Pictures/StabB.jpg Graphic file (type jpg)
+<use ./Pictures/StabB.jpg>
+Package pdftex.def Info: ./Pictures/StabB.jpg  used on input line 23.
+(pdftex.def)             Requested size: 289.07999pt x 233.42781pt.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 18.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 18.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 18.
-
-
-LaTeX Warning: Citation 'Pettingill' on page 2 undefined on input line 22.
-
-
-LaTeX Warning: Citation 'Wimer' on page 2 undefined on input line 26.
-
-[2
-
-]
-<./Pictures/SimpleMagneticCircuit.jpg, id=157, 455.45157pt x 350.81062pt>
+<./Pictures/SimpleMagneticCircuit.jpg, id=179, 455.45157pt x 350.81062pt>
 File: ./Pictures/SimpleMagneticCircuit.jpg Graphic file (type jpg)
 <use ./Pictures/SimpleMagneticCircuit.jpg>
 Package pdftex.def Info: ./Pictures/SimpleMagneticCircuit.jpg  used on input li
-ne 30.
+ne 32.
 (pdftex.def)             Requested size: 289.07999pt x 222.66591pt.
- [3 <./Pictures/SimpleMagneticCircuit.jpg>]
+[2
 
-LaTeX Warning: Citation 'AnaMech' on page 4 undefined on input line 90.
-
-[4]
-<./Pictures/CircularMagneticCircuit.jpg, id=198, 403.5075pt x 366.61969pt>
+] [3 <./Pictures/StabB.jpg> <./Pictures/SimpleMagneticCircuit.jpg>] [4]
+<./Pictures/CircularMagneticCircuit.jpg, id=225, 403.5075pt x 366.61969pt>
 File: ./Pictures/CircularMagneticCircuit.jpg Graphic file (type jpg)
 <use ./Pictures/CircularMagneticCircuit.jpg>
 Package pdftex.def Info: ./Pictures/CircularMagneticCircuit.jpg  used on input 
-line 106.
+line 114.
 (pdftex.def)             Requested size: 289.07999pt x 262.65694pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 LaTeX Font Info:    Try loading font information for U+urwchancal on input line
- 119.
- (E:\Software\MiKTeX\tex\latex\urwchancal\uurwchancal.fd
+ 127.
+(E:\Software\MiKTeX\tex\latex\urwchancal\uurwchancal.fd
 File: uurwchancal.fd 2011/03/05 Fontinst v1.933 font definitions for U/urwchanc
 al.
 )
 LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
-(Font)              scaled to size 12.0pt on input line 119.
+(Font)              scaled to size 12.0pt on input line 127.
 LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
-(Font)              scaled to size 8.0pt on input line 119.
+(Font)              scaled to size 8.0pt on input line 127.
 LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
-(Font)              scaled to size 6.0pt on input line 119.
- [5 <./Pictures/CircularMagneticCircuit.jpg>]
-<./Pictures/Gyrator-CapApp.jpg, id=211, 439.6425pt x 624.3325pt>
+(Font)              scaled to size 6.0pt on input line 127.
+ [5]
+<./Pictures/Gyrator-CapApp.jpg, id=240, 439.6425pt x 624.3325pt>
 File: ./Pictures/Gyrator-CapApp.jpg Graphic file (type jpg)
 <use ./Pictures/Gyrator-CapApp.jpg>
-Package pdftex.def Info: ./Pictures/Gyrator-CapApp.jpg  used on input line 128.
+Package pdftex.def Info: ./Pictures/Gyrator-CapApp.jpg  used on input line 136.
 
 (pdftex.def)             Requested size: 144.54pt x 205.25871pt.
- [6 <./Pictures/Gyrator-CapApp.jpg>]
+ [6 <./Pictures/CircularMagneticCircuit.jpg>]
 LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
-(Font)              scaled to size 5.0pt on input line 172.
-) [7]
+(Font)              scaled to size 5.0pt on input line 180.
+ [7 <./Pictures/Gyrator-CapApp.jpg>]
+<./Pictures/DriveB.jpg, id=266, 449.42906pt x 392.21532pt>
+File: ./Pictures/DriveB.jpg Graphic file (type jpg)
+<use ./Pictures/DriveB.jpg>
+Package pdftex.def Info: ./Pictures/DriveB.jpg  used on input line 194.
+(pdftex.def)             Requested size: 289.07999pt x 252.2857pt.
+<./Pictures/SalientPole.jpg, id=271, 402.75468pt x 243.91125pt>
+File: ./Pictures/SalientPole.jpg Graphic file (type jpg)
+<use ./Pictures/SalientPole.jpg>
+Package pdftex.def Info: ./Pictures/SalientPole.jpg  used on input line 214.
+(pdftex.def)             Requested size: 289.07999pt x 175.06885pt.
+ [8 <./Pictures/DriveB.jpg>] [9 <./Pictures/SalientPole.jpg>] [10] [11]
+<./Pictures/SlotPerm.jpg, id=335, 572.1375pt x 303.38344pt>
+File: ./Pictures/SlotPerm.jpg Graphic file (type jpg)
+<use ./Pictures/SlotPerm.jpg>
+Package pdftex.def Info: ./Pictures/SlotPerm.jpg  used on input line 384.
+(pdftex.def)             Requested size: 216.81pt x 114.96748pt.
+<./Pictures/PolePerm.jpg, id=336, 564.60938pt x 340.27126pt>
+File: ./Pictures/PolePerm.jpg Graphic file (type jpg)
+<use ./Pictures/PolePerm.jpg>
+Package pdftex.def Info: ./Pictures/PolePerm.jpg  used on input line 389.
+(pdftex.def)             Requested size: 187.90244pt x 113.24521pt.
+<./Pictures/SalientGeom.jpg, id=337, 483.30562pt x 306.39468pt>
+File: ./Pictures/SalientGeom.jpg Graphic file (type jpg)
+<use ./Pictures/SalientGeom.jpg>
+Package pdftex.def Info: ./Pictures/SalientGeom.jpg  used on input line 394.
+(pdftex.def)             Requested size: 216.81pt x 137.44621pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 382--397
+[]$[]$ $[]$
+ []
+
+[12]
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 432.
+LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
+(Font)              scaled to size 14.0pt on input line 432.
+LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 432.
+LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
+(Font)              scaled to size 7.0pt on input line 432.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9.79996> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 432.
+LaTeX Font Info:    Calculating math sizes for size <9.79996> on input line 432
+.
+LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
+(Font)              scaled to size 6.85994pt on input line 432.
+LaTeX Font Info:    Font shape `U/urwchancal/m/n' will be
+(Font)              scaled to size 4.89998pt on input line 432.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 432.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 432.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 432.
+
+) [13 <./Pictures/SlotPerm.jpg> <./Pictures/PolePerm.jpg> <./Pictures/SalientGe
+om.jpg>]
 Chapter 3.
-[8
+[14
 
 ]
 Chapter 4.
-[9
+[15
 
 ]
 Chapter 5.
-[10
+[16
 
 ]
 Chapter 6.
-[11
+[17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
- [12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
+ [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 02956D806E48A728D67574C471F1A024;1118.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: D868EAA7901D9AE79E5B3925E1159556;1246.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
  ) 
 Here is how much of TeX's memory you used:
- 17429 strings out of 493313
- 282310 string characters out of 3142793
- 750941 words of memory out of 3000000
- 20656 multiletter control sequences out of 15000+200000
- 14484 words of font info for 49 fonts, out of 3000000 for 9000
+ 17264 strings out of 493313
+ 279974 string characters out of 3142793
+ 740334 words of memory out of 3000000
+ 20412 multiletter control sequences out of 15000+200000
+ 22070 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,77p,993b,1443s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,77p,948b,1157s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/arne9249/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/base/8r.enc}<E:
 /Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Software/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Software/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Softwar
-e/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Software/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Sof
-tware/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/Software/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><E:/Software/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmti12.pfb><E:/Software/MiKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on main.pdf (20 pages, 262743 bytes).
+c/amsfonts/cmextra/cmex8.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><E:/So
+ftware/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/Software/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><E:/Software/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Software/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:/Software/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb><E:/Software/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/Software
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><E:/Software/MiKTeX/fonts/typ
+e1/public/amsfonts/euler/eurm10.pfb><E:/Software/MiKTeX/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb><E:/Software/MiKTeX/fonts/type1/urw/zapfchan/uzcmi8a.pf
+b>
+Output written on main.pdf (26 pages, 614100 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 467 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

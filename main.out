@@ -9,11 +9,12 @@
 \BOOKMARK [1][-]{section.1.1}{Thesis Objectives}{chapter.1}% 9
 \BOOKMARK [1][-]{section.1.2}{Scope}{chapter.1}% 10
 \BOOKMARK [0][-]{chapter.2}{Dynamic Modeling}{}% 11
-\BOOKMARK [1][-]{section.2.1}{Torque Production}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.2}{MATLAB\256 Development}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.3}{Effects of Non Ideal Materials}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{Controls Development}{}% 15
-\BOOKMARK [0][-]{chapter.4}{Hardware Testing}{}% 16
-\BOOKMARK [0][-]{chapter.5}{Model Validation and Verification}{}% 17
-\BOOKMARK [0][-]{chapter.6}{Summary, Conclusions, and Recommendations}{}% 18
-\BOOKMARK [0][-]{section*.11}{References}{}% 19
+\BOOKMARK [1][-]{section.2.1}{Effects of Non Ideal Materials on the Stabilization Bearing}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Effects of Non Ideal Materials on the Drive Bearing}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Torque Production}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{MATLAB\256 Development}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Controls Development}{}% 16
+\BOOKMARK [0][-]{chapter.4}{Hardware Testing}{}% 17
+\BOOKMARK [0][-]{chapter.5}{Model Validation and Verification}{}% 18
+\BOOKMARK [0][-]{chapter.6}{Summary, Conclusions, and Recommendations}{}% 19
+\BOOKMARK [0][-]{section*.15}{References}{}% 20

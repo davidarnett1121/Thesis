@@ -91,7 +91,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>999</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -107,11 +107,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -373,6 +373,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">dashed</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -1923,20 +1924,38 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">Pettingill</bcf:citekey>
-    <bcf:citekey order="4">Wimer</bcf:citekey>
-    <bcf:citekey order="5">MagBear</bcf:citekey>
-    <bcf:citekey order="6">MagBear</bcf:citekey>
-    <bcf:citekey order="7">MagBear</bcf:citekey>
-    <bcf:citekey order="8">MagBear</bcf:citekey>
-    <bcf:citekey order="9">MagBear</bcf:citekey>
-    <bcf:citekey order="10">AnaMech</bcf:citekey>
+    <bcf:citekey order="7">Pettingill</bcf:citekey>
+    <bcf:citekey order="8">Kisling</bcf:citekey>
+    <bcf:citekey order="9">Kisling</bcf:citekey>
+    <bcf:citekey order="10">Wimer</bcf:citekey>
     <bcf:citekey order="11">MagBear</bcf:citekey>
     <bcf:citekey order="12">MagBear</bcf:citekey>
     <bcf:citekey order="13">MagBear</bcf:citekey>
     <bcf:citekey order="14">MagBear</bcf:citekey>
-    <bcf:citekey order="15">GyrCapApp</bcf:citekey>
-    <bcf:citekey order="16">GyrCapApp</bcf:citekey>
+    <bcf:citekey order="15">MagBear</bcf:citekey>
+    <bcf:citekey order="16">AnaMech</bcf:citekey>
+    <bcf:citekey order="17">MagBear</bcf:citekey>
+    <bcf:citekey order="18">MagBear</bcf:citekey>
+    <bcf:citekey order="19">MagBear</bcf:citekey>
+    <bcf:citekey order="20">MagBear</bcf:citekey>
+    <bcf:citekey order="21">GyrCapApp</bcf:citekey>
+    <bcf:citekey order="22">GyrCapApp</bcf:citekey>
+    <bcf:citekey order="23">Wimer</bcf:citekey>
+    <bcf:citekey order="24">Wimer</bcf:citekey>
+    <bcf:citekey order="25">Wimer</bcf:citekey>
+    <bcf:citekey order="26">Wimer</bcf:citekey>
+    <bcf:citekey order="27">Wimer</bcf:citekey>
+    <bcf:citekey order="28">MWFwE</bcf:citekey>
+    <bcf:citekey order="29">MWFwE</bcf:citekey>
+    <bcf:citekey order="30">IntACMach</bcf:citekey>
+    <bcf:citekey order="31">IntACMach</bcf:citekey>
+    <bcf:citekey order="32">AnaGapSal</bcf:citekey>
+    <bcf:citekey order="33">AnaGapSal</bcf:citekey>
+    <bcf:citekey order="34">AnaGapSal</bcf:citekey>
+    <bcf:citekey order="35">AnaGapSal</bcf:citekey>
+    <bcf:citekey order="36">AnaGapSal</bcf:citekey>
+    <bcf:citekey order="37">AnaGapSal</bcf:citekey>
+    <bcf:citekey order="38">AnaGapSal</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
